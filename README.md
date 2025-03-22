@@ -12,10 +12,3 @@ The core methodology involves capturing video frames, processing them through th
 - Object Tracking: The system maintains a history of detected objects, providing a more comprehensive understanding of the environment.
 - User-friendly Interface: The custom Tkinter-based GUI simplifies user interaction, allowing users to start and stop detection with ease.
 
-**Technologies**
-
-- OpenCV: OpenCV is used for capturing and processing video frames, as well as rendering the camera feed in the GUI.
-- pyttsx3: This library provides text-to-speech functionality, enabling the system to verbally announce detected objects.
-- NumPy: NumPy is used for numerical computations, particularly when calculating distances based on object heights and focal length.
-- YOLOv8: YOLOv8 is the machine learning model used for object detection, providing accurate and efficient detection capabilities.
-- Tkinter and customtkinter: These libraries are used for building the user interface, allowing users to interact with the system easily.
